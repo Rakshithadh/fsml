@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 📂 Deepfake Detection Dataset
 
 ---
@@ -239,5 +239,4 @@ python -m pipeline.pipeline
 * Nithin Kumar S N
 * Bhuvan S Maligi
 
----
->>>>>>> d2213c6 (Initial commit - Deepfake Detection project)
+
