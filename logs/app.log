@@ -1,0 +1,41 @@
+2026-03-31 15:15:38,159 - INFO - Pipeline started
+2026-03-31 15:15:38,164 - INFO - Training ViT...
+2026-03-31 15:15:38,717 - INFO - Loading pretrained weights from Hugging Face hub (timm/vit_base_patch16_224.augreg2_in21k_ft_in1k)
+2026-03-31 15:15:39,186 - INFO - HTTP Request: HEAD https://huggingface.co/timm/vit_base_patch16_224.augreg2_in21k_ft_in1k/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-03-31 15:15:39,187 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-31 15:15:39,188 - INFO - [timm/vit_base_patch16_224.augreg2_in21k_ft_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2026-03-31 15:27:06,944 - INFO - Epoch 1, Loss: 180.68246984481812
+2026-03-31 15:38:35,595 - INFO - Epoch 2, Loss: 153.551137059927
+2026-03-31 15:50:06,820 - INFO - Epoch 3, Loss: 135.17311395704746
+2026-03-31 16:01:40,637 - INFO - Epoch 4, Loss: 115.21314942836761
+2026-03-31 16:13:12,556 - INFO - Epoch 5, Loss: 101.70335055887699
+2026-03-31 16:24:44,828 - INFO - Epoch 6, Loss: 98.77572257071733
+2026-03-31 16:36:17,831 - INFO - Epoch 7, Loss: 89.609428986907
+2026-03-31 16:47:49,048 - INFO - Epoch 8, Loss: 85.75141719728708
+2026-03-31 16:59:19,993 - INFO - Epoch 9, Loss: 73.95016423612833
+2026-03-31 17:10:46,559 - INFO - Epoch 10, Loss: 69.65034221857786
+2026-03-31 17:11:14,527 - INFO - ViT Accuracy: 80.6
+2026-03-31 17:11:14,527 - INFO - Training ResNet...
+2026-03-31 17:12:39,807 - INFO - Epoch 1, Loss: 107.47227261960506
+2026-03-31 17:14:04,806 - INFO - Epoch 2, Loss: 63.45840219035745
+2026-03-31 17:15:29,874 - INFO - Epoch 3, Loss: 50.629570335149765
+2026-03-31 17:16:54,893 - INFO - Epoch 4, Loss: 36.75185912847519
+2026-03-31 17:18:19,946 - INFO - Epoch 5, Loss: 34.50972333038226
+2026-03-31 17:19:44,991 - INFO - Epoch 6, Loss: 28.638141311705112
+2026-03-31 17:21:10,012 - INFO - Epoch 7, Loss: 26.152289149351418
+2026-03-31 17:22:34,779 - INFO - Epoch 8, Loss: 17.32798944809474
+2026-03-31 17:23:59,728 - INFO - Epoch 9, Loss: 20.746753070387058
+2026-03-31 17:25:24,796 - INFO - Epoch 10, Loss: 15.936822703341022
+2026-03-31 17:25:28,340 - INFO - ResNet Accuracy: 89.4
+2026-03-31 17:25:28,364 - INFO - Best model: resnet saved!
+2026-03-31 17:25:31,900 - INFO - Confusion Matrix:
+[[220  30]
+ [ 27 223]]
+2026-03-31 17:25:31,901 - INFO - Pipeline completed
+2026-04-01 15:59:49,428 - INFO - data/small_dataset/Test/Fake/fake_1697.jpg -> real
+2026-04-01 16:00:08,746 - INFO - data/small_dataset/Test/Fake/fake_41.jpg -> real
+2026-04-01 16:00:19,841 - INFO - data/small_dataset/Test/Fake/fake_354.jpg -> real
+2026-04-01 16:00:53,769 - INFO - data/small_dataset/Test/Real/real_66.jpg -> real
+2026-04-01 16:01:27,982 - INFO - data/small_dataset/Test/Fake/fake_2160.jpg -> fake
+2026-04-02 15:24:57,324 - INFO - data/small_dataset/Test/Fake/fake_2160.jpg -> fake
+2026-04-04 14:21:23,750 - INFO - data/small_dataset/Test/Fake/fake_2160.jpg -> fake

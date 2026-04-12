@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+torch
+torchvision
+=======
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
+>>>>>>> d2213c6 (Initial commit - Deepfake Detection project)
+timm
+fastapi
+uvicorn
+pillow
+scikit-learn
+
+
+
+
+#pip install -r requirements.txt
+
+#python pipeline/pipeline.py
+
+
+#uvicorn app.app:app --reload

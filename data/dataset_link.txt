@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+Download original images Dataset:
+https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images
+_ _ _ 
+
+Download 5k images Dataset:
+https://drive.google.com/file/d/16ptPWLD1A9XomChA4tb6FeKRfF7rMbDt/view?usp=sharing
+=======
+Download original images Dataset:
+https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images
+_ _ _ 
+
+Download 5k images Dataset:
+https://drive.google.com/file/d/16ptPWLD1A9XomChA4tb6FeKRfF7rMbDt/view?usp=sharing
+>>>>>>> d2213c6 (Initial commit - Deepfake Detection project)
